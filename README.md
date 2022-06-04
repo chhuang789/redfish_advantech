@@ -24,25 +24,17 @@ pip install redfish_advantech==x.y.z
 - Add "-v", "-vv" or "-vvv" for more log
 
 cd examples
+<br/>python advantech.py
+<br/>python acl_bmc.py
+<br/>python acl_bmc_cm.py
 
-python advantech.py
-
-python acl_bmc.py
-
-python acl_bmc_cm.py
-
-Appendix:
-❯ pip
-Traceback (most recent call last):
-  File "/Users/ch.huang789/redfish_advantech_library/redfish/bin/pip", line 5, in <module>
-    from pip._internal.cli.main import main
-ModuleNotFoundError: No module named 'pip'
-❯ pip3
-Traceback (most recent call last):
-  File "/Users/ch.huang789/redfish_advantech_library/redfish/bin/pip3", line 5, in <module>
-    from pip._internal.cli.main import main
-ModuleNotFoundError: No module named 'pip'
+＃Appendix:
+<br/>❯ pip3
+<br/>Traceback (most recent call last):
+<br/>  File "/Users/ch.huang789/redfish_advantech_library/redfish/bin/pip3", line 5, in <module>
+<br/>    from pip._internal.cli.main import main
+<br/>ModuleNotFoundError: No module named 'pip'
 
 Solution for macos:
-❯ python3 -m ensurepip
+<br/>❯ python3 -m ensurepip
 
